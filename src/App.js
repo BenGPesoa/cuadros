@@ -17,8 +17,7 @@ const [style13, setStyle13] = useState("cont2");
 const [style14, setStyle14] = useState("cont");
 const [style15, setStyle15] = useState("cont2");
 const [style16, setStyle16] = useState("cont");
-const [styleBtn1, setStyleBtn1] = useState("cont");
-const [styleBtn2, setStyleBtn2] = useState("cont2");
+
 
 const changeStyle = props => {  
 	if (style == "cont") {
@@ -187,6 +186,25 @@ const changeStyleBtn2 = () => {
   setStyle16("cont2");
 };
 
+const changeStyleBtn3 = () => {
+	changeStyle();
+  changeStyle2();
+  changeStyle3();
+  changeStyle4();
+  changeStyle5();
+  changeStyle6();
+  changeStyle7();
+  changeStyle8();
+  changeStyle9();
+  changeStyle10();
+  changeStyle11();
+  changeStyle12();
+  changeStyle13();
+  changeStyle14();
+  changeStyle15();
+  changeStyle16();
+};
+
 
 
 
@@ -233,9 +251,11 @@ return (
   <div className="titulo">
         <h1>Variables de Colores</h1>
         <h2>Color 1:</h2>
-        <button className={styleBtn1} onClick={changeStyleBtn1}></button>
+        <button className="cont" onClick={changeStyleBtn1}></button>
         <h2>Color 2:</h2>
-        <div className={styleBtn2} onClick={changeStyleBtn2}></div>
+        <div className="cont2" onClick={changeStyleBtn2}></div>
+        <h2>Negativo:</h2>
+        <div className="cont3" onClick={changeStyleBtn3}></div>
     </div>
     <div className="cuadro">
         <button className={style} onClick={changeStyle}></button>

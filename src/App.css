@@ -19,11 +19,21 @@
     background-color: var(--verde);
     border: none;
   }
+
+  .cont3 {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    background: rgb(65,15,98);
+background: linear-gradient(180deg, rgba(65,15,98,1) 0%, rgba(15,98,65,1) 100%);
+    border: none;
+  }
   
 
   :root {
-    --verde: rgb(15,98,65);
-    --violeta: rgb(65,15,98);
+    --verde: #0f6241;
+    --violeta: #410f62;
 }
 
 body {
