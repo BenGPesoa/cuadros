@@ -276,7 +276,7 @@ return (
         <button className={style16} onClick={changeStyle16}></button>
     </div>
     <div className="cuadro">
-    {cuadros.map(cuadro => <button key={cuadro.id} className={cuadro.style} onClick={changeStyle}></button>)}
+    {cuadros.map(cuadro => <button key={cuadro.id} className={cuadro.style} onClick={changeStyleBtn3}></button>)}
     </div>
     </div>	
 	</>
